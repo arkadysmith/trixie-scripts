@@ -84,7 +84,6 @@ fi
 \cp -r ~/trixie-scripts/dot_files/.config/polybar/ ~/.config/
 \cp -r ~/trixie-scripts/dot_files/.config/picom/ ~/.config/
 \cp -r ~/trixie-scripts/dot_files/.config/rofi/ ~/.config/
-\cp -r ~/trixie-scripts/dot_files/.config/backgrounds/ ~/.config/
 
 chmod +x ~/.config/i3/polybar-i3
 
