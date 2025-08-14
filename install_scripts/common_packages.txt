@@ -6,7 +6,7 @@
     xinput
     build-essential
     git
-    policykit-1-gnome 
+    lxpolkit
     network-manager 
     network-manager-gnome
     pamixer
@@ -32,7 +32,7 @@
     fonts-font-awesome
     fonts-terminus 
     papirus-icon-theme
-    exa
+    eza
     maim
     rofi
     dunst
