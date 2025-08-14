@@ -80,6 +80,8 @@ fi
 \cp -r ~/trixie-scripts/dot_files/.config/i3/ ~/.config/
 \cp -r ~/trixie-scripts/dot_files/.config/picom/ ~/.config/
 \cp -r ~/trixie-scripts/dot_files/.config/rofi/ ~/.config/
+\cp ~/trixie-scripts/dot_files/.Xresources ~/
+\cp ~/trixie-scripts/dot_files/.profile ~/
 
 # check FT-Labs picom and nerdfonts are installed
 bash ~/trixie-scripts/install_scripts/picom.sh
