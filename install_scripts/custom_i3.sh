@@ -5,9 +5,7 @@ packages=(
 	"i3"
     "sxhkd"
     "suckless-tools"
-    "polybar"
     "tilix"
-    "firefox-esr"
 )
 
 # Function to read common packages from a file
@@ -79,13 +77,9 @@ else
 fi
 
 # moving custom config
-\cp -r ~/trixie-scripts/dot_files/scripts/ ~
 \cp -r ~/trixie-scripts/dot_files/.config/i3/ ~/.config/
-\cp -r ~/trixie-scripts/dot_files/.config/polybar/ ~/.config/
 \cp -r ~/trixie-scripts/dot_files/.config/picom/ ~/.config/
 \cp -r ~/trixie-scripts/dot_files/.config/rofi/ ~/.config/
-
-chmod +x ~/.config/i3/polybar-i3
 
 # check FT-Labs picom and nerdfonts are installed
 bash ~/trixie-scripts/install_scripts/picom.sh
